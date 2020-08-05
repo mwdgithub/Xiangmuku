@@ -1,0 +1,205 @@
+/* 公共样式表 */
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+body {
+    min-width: 1512px;
+}
+
+/* 设置一个类，用来表示中间容器的宽度 */
+.w {
+    /* 固定宽度 */
+    width: 700px;
+    /* 居中 */
+    margin: 0 auto;
+}
+
+header {
+    height: 360px;
+    background: #00b38a;
+    position: relative;
+}
+.box{
+    height: 490px;
+    position: absolute;
+    top: 77px;
+    left: 50%;
+    margin-left: -325px;
+}
+.logo {
+
+    height: 77px;
+    background: url("../image/img2/logo.png")no-repeat;
+}
+.for-box{
+    height: 400px;
+    border: 1px solid #dce1e6;
+    padding: 6px;
+    background: #fff;
+    position: relative;
+}
+.for-box img{
+    display: block;
+    float: left;
+}
+.for-box .fl{
+    margin-top: -5px;
+    
+}
+.inpLeft{
+    height: 277px;
+    position: absolute;
+    top: 80px;
+    width: 298px;
+    margin: 0 auto;
+    padding: 0 30px;
+    border-right:1px dotted rgb(177, 174, 174) ;
+}
+
+.inpLeft-box{
+    width: 300px;
+    /* border-bottom: 1px solid #dce1e6; */
+}
+.inpLeft-box p{
+    width:80px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.inpLeft-box p:nth-child(1){
+    color: #00b38a;
+}
+input{
+    width: 255px;
+    height:60px;
+    border: none;
+    border-top: 1px solid black;
+}
+.inpLeft input:nth-child(3){
+    border-bottom: 1px solid black;
+}
+.wangji{
+    margin-top: 15px;
+}
+.wangji a{
+    font-size: 12px;
+    color: #00b38a;
+    float: right;
+    margin-right: 35px;
+}
+.btn-d{
+    width: 255px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #00b38a;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.right-1 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    margin-left:50px ;
+    /* position: relative; */
+}
+.right-1 div ul li:nth-child(1) a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../image/img2/icon-sina1.png')no-repeat center;
+}
+.right-1 div ul li:nth-child(2) a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../image/img2/icon-tencent.png')no-repeat center;
+}
+.right-1 div ul li:nth-child(3) a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../image/img2/icon-wechat.png')no-repeat center;
+}
+.right-1 div ul li:nth-child(4) a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../image/img2/icon-baidu.png')no-repeat center;
+}
+.right-1 div:first-child{
+    width: 200px;
+    height: 80px;
+    /* border: #000 1px solid; */
+    margin-left: 40px;
+    margin-top: 150px;
+}
+.right-1 div:first-child span{
+    display: block;
+    text-align: left;
+    line-height: 40px;
+}
+.right-1 div:first-child span:nth-child(1){
+    color: #808f8b;
+    
+}
+.right-1 div:first-child span:nth-child(2){
+    color: #00b38a;
+    font-size: 16px;
+}
+.right-1 div:first-child span span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+  background: url('../image/img2/icon-arrow-right.png') no-repeat top center;
+  vertical-align: middle;
+}
+.right-1 div:last-child{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #808f8b;
+}
+.right-1 div:last-child {
+    width: 150px;
+}
+.right-1 div:last-child ul{
+    margin-top: 15px;
+}
+.right-1 div:last-child ul li {
+   float: left; 
+}
+.right-1 div:last-child ul li:nth-child(2) {
+   margin-left: 20px;
+
+ }
+ .right-1 div:last-child ul li:nth-child(3) {
+    margin-left: 20px;
+  }
+  .right-1 div:last-child ul li:nth-child(4) {
+    margin-left: 20px;
+  }
+  .right-1 div:last-child ul li:nth-child(1):hover a{
+    background: url('../image/img2/icon-sina-hover.png')no-repeat center;
+  }
+  .right-1 div:last-child ul li:nth-child(2):hover a{
+    background: url('../image/img2/icon-tencent-hover.png')no-repeat center;
+  }
+  .right-1 div:last-child ul li:nth-child(3):hover a{
+    background: url('../image/img2/icon-wechat-hover.png')no-repeat center;
+  }
+  .right-1 div:last-child ul li:nth-child(4):hover a{
+    background: url('../image/img2/icon-baidu-hover.png')no-repeat center;
+  }
